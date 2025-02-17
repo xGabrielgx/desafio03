@@ -1,8 +1,8 @@
 package com.desafio03.projetodesafio03.services.exceptions;
 
-public class NoSuchElementException extends RuntimeException{
+public class ResourceNotFoundException extends RuntimeException {
 
-    public NoSuchElementException(String msg) {
+    public ResourceNotFoundException(String msg) {
         super(msg);
     }
 }
